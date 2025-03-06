@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  /* Shared Styles */
+  .display-flex {
+    display: flex;
+  }
+
+  .color-orange{
+    color: rgba(254, 163, 1, 1);
+   
+  }
+  .color-skyblue{
+    color: rgba(1, 172, 253, 1);
+  ;
+  }
+  .color-cyan{
+    color: rgba(5, 212, 223, 1);
+    
+  }
+  .color-blue{
+    color: rgba(93, 88, 239, 1);
+    
+  }
+
+  .card-title{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+   /* Navbar related styles */
+   .nav-items{
+    list-style: none;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-left: 178px;
+   }
+   .nav-item{
+    margin-left: 32px;
+   }
+
+
+  nav>div>ul>li>a{
+    text-decoration: none;
+    
+  }
+
+  .logo{
+    margin-left:141px ;
+    margin-top: 30px;
+  }
+
+  
+ 
+
+  .btn-primary{
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left:50px ;
+    padding-right: 50px;
+    font-weight: semi-bold;
+    font-size: 15px;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 30px;
+    margin-left: 350px;
+  }
+
+  /* students section */
+  .student-title{
+    margin-left: 145px;
+    margin-top: 106px;
+    font-size: 56px;
+    font-weight: bold;
+   
+  }
+
+  .student-description{
+    margin-left: 145px;
+    color: rgba(17, 17, 17, 1);
+    font-size: 20px;
+    font-weight: regular;
+  }
+  .btn{
+    margin-left: 145px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 45px;
+    border-radius: 12px;
+  }
+  .hero-img {
+    margin-left: 186px;
+  }
+
+  /*Curriculum styles*/
+  .curriculum-title{
+   text-align: center;
+   font-weight: bold;
+   font-size: 46px;
+   margin-top: 109px;
+  }
+
+  /*card styles*/
+.curriculum-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+  .card-1{
+   background-color: rgba(222, 245, 255, 1);
+   margin-left: 140px;
+    text-align: center;
+    padding: 40px 11px 40px 11px;
+    border-radius: 18px;
+    margin-right: 30px;
+  }
+  .card-2{
+    background-color: rgba(255, 244, 220, 1);
+    margin-left: 140px;
+     text-align: center;
+     padding: 40px 11px 40px 11px;
+     border-radius: 18px;
+     margin-right: 50px;
+   }
+   .card-3{
+    background-color:rgba(242, 232, 255, 1);
+    margin-left: 140px;
+     text-align: center;
+     padding: 40px 11px 40px 11px;
+     border-radius: 18px;
+     margin-right: 60px;
+   }
+
+   .read-more{
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
+   }
+
+  /*story styles*/
+  .story-content{
+  display: grid;
+  grid-template-columns: repeat(3,5fr);
+ 
+  }
+.story-1-content{
+  margin-right: 13px;
+  margin-left: 140px;
+  box-shadow: 0px 4px 30px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+
+}
+ .story-1-title{
+  margin-left: 38px;
+  margin-right: 99px;
+ }
+
+  .story-1-btn{
+    background-color: rgba(60, 216, 232, 1);
+    padding: 14px 19px 15px;
+    border-radius: 47px;
+    border-color: rgba(60, 216, 232, 1);
+    color: white;
+    margin-left: 80px;
+    margin-top: -170px;
+  }
+  .story-1-description{
+    margin-left: 38px;
+    margin-right: 99px;
+    color: rgba(102, 102, 102, 1);
+    font-size: 15px;
+    
+  }
+
+  .story-2-content{
+   margin-right: 19px;
+   box-shadow:0px 4px 3px 0 rgba(0, 0, 0, 0.06) ;
+   border-radius: 16px;
+   
+  }
+  .story-2-btn{
+    background-color: #95B226;
+    padding:14px 19px 15px ;
+    border-color: #95B226;
+    border-radius: 47px;
+    margin-left: 38px;
+    margin-top: -170px;
+  }
+  .story-2-title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 37px;
+    margin-right: 54px;
+  }
+.story-3-btn{
+  background-color: #5D58F0;
+  padding:14px 19px 15px ;
+  border-color: #5D58F0;
+  border-radius: 47px;
+  margin-left: 38px;
+  margin-top: -170px;
+}
+.story-4-content{
+margin-left: 140px;
+margin-top: 30px;
+
+}
+
+/*Footer Styles*/
+.footer-section{
+  background-color: rgba(120, 227, 215, 1);
+  gap: 20px
+  ;
+}
+.logo-png{
+  margin-top: 123px;
+}
+.education-content{
+  margin-left: 140px;
+}
+.footer-title{
+color: white;
+font-size: 43px;
+font-weight: bold;
+}
+.education-description {
+  font-size: 20px;
+  font-weight:regular;
+  color: white;
+  width: 399px;
+  margin-bottom: 179px;
+  margin-right: 172px;
+}
+ .about-title{
+font-size: 24px;
+font-weight: bold;
+color: white;
+margin-top: 240px;
+
+}
+
+
+ /*media queries*/
+  @media screen and (max-width:768px){
+    .nav-items,.btn-primary,.story-1-content{
+      display: none;
+    }
+    .logo{
+      margin-left: 16px;
+    }
+
+  
+   .student-content,.hero-img{
+      align-items: center;
+      flex-direction:column;
+     
+    }
+    .btn{
+      align-items: center;
+    }
+    
+   
+    .curriculum-title{
+     text-align: center;
+    }
+
+    .curriculum-container{
+    grid-template-columns: 1fr;
+    gap: 12px;
+    
+    }
+    .story-content{
+      flex-direction: column;
+    }
+    .footer-section{
+      flex-direction: column;
+    }
+    .logo-png{
+      margin-top: 25px;
+      gap: 12px;
+    }
+
+  }
+  
